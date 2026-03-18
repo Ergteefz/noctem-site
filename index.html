@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOCTEM — Survival horror coopératif</title>
+  <meta
+    name="description"
+    content="NOCTEM est un survival horror coopératif en LAN où les joueurs explorent, interagissent avec l’environnement et tentent de survivre face à une menace."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <nav class="navbar container">
+      <a href="#top" class="logo">NOCTEM</a>
+      <div class="nav-links">
+        <a href="#concept">Concept</a>
+        <a href="#gameplay">Gameplay</a>
+        <a href="#avancement">Avancement</a>
+        <a href="#captures">Captures</a>
+      </div>
+    </nav>
+    <div id="top" class="hero-content container">
+      <p class="eyebrow">Survival horror coopératif en LAN</p>
+      <h1>NOCTEM</h1>
+      <h2>Explorez. Coopérez. Échappez à ce qui vous traque.</h2>
+      <p class="hero-text">
+        NOCTEM est un jeu d’horreur coopératif en petit groupe où les joueurs
+        doivent survivre et s’échapper dans un environnement sombre, avec une
+        vision limitée, des interactions avec le décor et une menace qui met
+        constamment la pression.
+      </p>
+      <div class="hero-buttons">
+        <a href="#concept" class="btn btn-primary">Découvrir le jeu</a>
+        <a href="#avancement" class="btn btn-secondary">Voir l’avancement</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="concept" class="section">
+      <div class="container">
+        <div class="section-title">
+          <p class="section-label">Présentation</p>
+          <h2>Le concept du jeu</h2>
+          <p>
+            Un prototype de survival horror coopératif centré sur la tension,
+            l’exploration, la coordination entre joueurs et la fuite face à une menace.
+          </p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Survie coopérative</h3>
+            <p>
+              Les joueurs doivent progresser ensemble, partager les informations
+              et coordonner leurs actions pour espérer survivre.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Exploration sous pression</h3>
+            <p>
+              Le jeu repose sur une ambiance sombre, une vision limitée et
+              l’exploration d’un environnement dangereux rempli d’obstacles
+              et d’interactions.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Menace dynamique</h3>
+            <p>
+              Un monstre met la pression sur les joueurs avec un comportement
+              de poursuite, du pathfinding et des déplacements liés aux vents.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="gameplay" class="section section-alt">
+      <div class="container grid-2">
+        <div class="gameplay-intro">
+          <p class="section-label">Gameplay</p>
+          <h2>Coopérer pour survivre</h2>
+          <p>
+            NOCTEM mise sur la communication, l’exploration et les interactions
+            avec le décor. Les joueurs doivent se déplacer, observer, agir sur
+            l’environnement et éviter une menace capable de les traquer.
+          </p>
+          <div class="gameplay-points">
+            <span>LAN multijoueur</span>
+            <span>Exploration</span>
+            <span>Interaction</span>
+            <span>Survie</span>
+          </div>
+        </div>
+        <div class="feature-list">
+          <article class="feature">
+            <h3>Multijoueur LAN</h3>
+            <p>
+              Création et connexion à une partie, lobby avec système de prêt,
+              lancement de session et synchronisation des positions.
+            </p>
+          </article>
+          <article class="feature">
+            <h3>Décor interactif</h3>
+            <p>
+              Certaines actions se font directement en jeu, notamment les
+              interactions avec des leviers et l’ouverture ou fermeture de portes.
+            </p>
+          </article>
+          <article class="feature">
+            <h3>Ambiance et pression</h3>
+            <p>
+              Filtre de nuit, halos de lumière, déplacements limités par les
+              collisions et présence d’un monstre avec IA de base.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="avancement" class="section">
+      <div class="container">
+        <div class="section-title">
+          <p class="section-label">Avancement</p>
+          <h2>État actuel du jeu</h2>
+          <p>
+            Le projet est déjà à l’état de prototype technique jouable, avec
+            une base multijoueur, une map explorable, des interactions et une
+            première version de l’ambiance horrifique.
+          </p>
+        </div>
+        <div class="cards progress-cards">
+          <article class="card">
+            <h3>Déjà fonctionnel</h3>
+            <p>
+              Lancement du jeu, multijoueur LAN, lobby, déplacements,
+              collisions, caméra, filtre de nuit, interactions de base,
+              portes/leviers, et monstre avec IA prototype.
+            </p>
+          </article>
+          <article class="card">
+            <h3>En cours</h3>
+            <p>
+              Amélioration du contenu gameplay, enrichissement des interactions,
+              meilleure lisibilité du prototype et consolidation des mécaniques
+              principales autour de la survie coopérative.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Encore à développer</h3>
+            <p>
+              Tâches, énigmes, objectifs de fuite, rôles, inventaire, assets,
+              sons, vraie gestion de la lumière et extension du nombre de joueurs.
+            </p>
+          </article>
+        </div>
+        <div class="progress-details">
+          <div class="detail-box">
+            <h3>Fonctionnel dans le prototype</h3>
+            <ul>
+              <li>Lancement du client via le projet.</li>
+              <li>Création / rejoindre une partie en LAN.</li>
+              <li>Lobby avec état prêt / start.</li>
+              <li>Synchronisation des positions des joueurs.</li>
+              <li>Déplacements et collisions validés côté serveur.</li>
+              <li>Map avec caméra centrée sur le joueur.</li>
+              <li>Ambiance nocturne avec halos lumineux.</li>
+              <li>Interaction avec la touche E.</li>
+              <li>Leviers et portes déjà reliés en logique.</li>
+              <li>Monstre avec poursuite, pathfinding et téléportation via vents.</li>
+            </ul>
+          </div>
+          <div class="detail-box">
+            <h3>Éléments encore manquants</h3>
+            <ul>
+              <li>Gameplay complet : tâches, énigmes, objectifs de fuite.</li>
+              <li>Objets, rôles ou inventaire.</li>
+              <li>Torche en cône avec vraie occlusion par les murs.</li>
+              <li>Patrouille plus aboutie du monstre.</li>
+              <li>Assets visuels complets.</li>
+              <li>Audio, ambiance sonore et musique.</li>
+              <li>Extension du nombre de joueurs au-delà de 2.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="progress-note">
+          <h3>Axes de développement actuels</h3>
+          <div class="progress-list">
+            <span>Gameplay coopératif</span>
+            <span>IA du monstre</span>
+            <span>Ambiance horrifique</span>
+            <span>Lisibilité du prototype</span>
+            <span>Contenu interactif</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="captures" class="section section-alt">
+  <div class="container">
+    <div class="section-title">
+      <p class="section-label">Captures</p>
+      <h2>Aperçu du prototype</h2>
+      <p>
+        Premiers visuels du jeu : plan, circulation dans la map et interface
+        prototype autour de l’exploration et de la coopération.
+      </p>
+    </div>
+
+    <div class="gallery">
+      <article class="gallery-card">
+        <img src="plan-1.png" alt="Plan du prototype NOCTEM avec légende et zones interactives" />
+      </article>
+
+      <article class="gallery-card">
+        <img src="plan-2.png" alt="Vue de la map prototype NOCTEM avec couloirs et zones explorables" />
+      </article>
+
+      <article class="gallery-card">
+        <img src="menu-prototype.png" alt="Menu principal prototype du jeu NOCTEM" />
+      </article>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>© NOCTEM — Prototype de survival horror coopératif</p>
+    </div>
+  </footer>
+</body>
+</html>
